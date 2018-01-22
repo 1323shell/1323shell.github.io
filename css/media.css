@@ -1,0 +1,261 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1370px) {
+	footer .logo img:last-child {
+		display: none;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.reel_talk_more {
+		padding: 15% 0 0 5%;
+	}
+
+	.reel_talk_more_content {
+		margin: 30px 0;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.menu li > a {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.stories-head {
+		text-align: right;
+		padding: 0 2%;
+	}
+
+	.stories-footer {
+		text-align: center;
+	}
+
+	.block-stories {
+		padding: 3% 0 1% 0;
+	}
+
+	.block-stories .container-fluid {
+		padding: 0;
+	}
+
+	.block_reel_talk {
+		padding: 3% 0;
+	}
+
+	.reel_talk_more_content {
+		margin: 20px 0;
+	}
+
+	.reel_talk_more {
+		padding: 10% 0 0 3%;
+	}
+
+	.reel_talk_more_content {
+		margin: 20px 0;
+		font-size: 14px;
+	}
+
+	.reel_talk_more_content .next {
+		font-size: 14px;
+		width: 220px;
+	}
+
+	.reel_talk_more_content .next:after {
+		left: 89%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.sign-in,
+	.menu {
+		display: none;
+	}
+
+	.login:hover {
+		cursor: pointer;
+	}
+
+	.menu {
+		position: absolute;
+		z-index: 99;
+		background-color: white;
+	}
+
+	footer .menu {
+		bottom: 100%;
+	}
+
+	.menu li {
+		display: block;
+	}
+
+	.menu li a {
+		padding: 15px 20px;
+	}
+
+	header .sub-menu {
+		left: 100%;
+		top: 0;
+	}
+
+	footer .sub-menu {
+		left: -150px;
+		top: 0;
+	}
+
+	.features .features-description {
+		padding: 5% 15% 5% 5%;
+	}
+
+	.features h3 {
+		font-size: 10px;
+	}
+
+	.features h1 {
+		font-size: 20px;
+	}
+
+	.stories-head {
+		text-align: center;
+	}
+
+	.stories-head .show {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	.stories-head h2 {
+		position: relative;
+	}
+
+	.reel_talk h1 {
+		padding: 0;
+		margin: 10px 0;
+	}
+
+	.current_month {
+		margin: 0;
+	}
+
+	.subscription {
+		margin: 20px 0 0 20px;
+	}
+
+	.special_feature_holder {
+		flex-direction: column;
+	}
+
+	.block-subscription {
+		padding-bottom: 150px;
+	}
+
+	.special_feature_holder .features-description h3 {
+		font-size: 14px;
+	}
+
+	.special_feature_holder .features-description h1 {
+		margin: 5% 0;
+		font-size: 30px;
+	}
+
+	.special_feature_holder .features-description h4 {
+		padding-top: 5%;
+	}
+
+	.special_feature_holder .features-description p {
+		margin-bottom: 2%;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	header .logo img {
+		width: 65px;
+		height: 70%;
+	}
+
+	.video-description .date {
+		padding: 10px 0;
+	}
+
+	.stories-item {
+		padding: 0;
+	}
+
+	.block_reel_talk h3 {
+		font-size: 12px;
+	}
+
+	.block_reel_talk h1 {
+		font-size: 24px;
+	}
+
+	.subscription_holder h4 {
+		font-size: 16px;
+		margin: 0;
+	}
+
+	.subscription_holder h2 {
+		font-size: 40px;
+		margin: 0;
+	}
+
+	.subscription_holder p {
+		margin: 4% 0;
+		line-height: 150%;
+		font-size: 16px;
+	}
+
+	.special_feature_holder .features-description h4 {
+		margin-bottom: 5%;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.auto-button,
+	.sign-in-sm {
+		display: none !important;
+	}
+
+	.menu {
+		display: block !important;
+	}
+
+	.login:hover {
+		box-shadow: inset 0 0 2px 2px grey;
+		background-color: rgb(220, 220, 220);
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
